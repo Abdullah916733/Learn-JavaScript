@@ -117,3 +117,18 @@
 // console.log(showValue);
 
 // ------------------------------------------------------------------------------------------------------- //
+
+// reverse the sentence
+
+// const a = "Hello World! I am a programmer";
+
+// function reverseWord(value) {
+//   let b = value.split(" ").reverse().join(" ");
+//   return b;
+// }
+
+// let showValue = reverseWord(a);
+
+// console.log(showValue);
+
+// ------------------------------------------------------------------------------------------------------- //
