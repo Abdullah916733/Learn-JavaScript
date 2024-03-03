@@ -71,3 +71,23 @@
 // findMostRepeatedValue(b);
 
 // ------------------------------------------------------------------------------------------------------- //
+
+// high order function
+
+// function plusFun(a, b) {
+//   return a + b;
+// }
+
+// function multiplyFunc(a, b) {
+//   return a * b;
+// }
+
+// function highOrderFunction(logic, a, b) {
+//   return logic(a, b);
+// }
+
+// const plusFunction = highOrderFunction(plusFun, 5, 3);
+// const multiplyFunction = highOrderFunction(multiplyFunc, 4, 4);
+// console.log(multiplyFunction);
+
+// ------------------------------------------------------------------------------------------------------- //
