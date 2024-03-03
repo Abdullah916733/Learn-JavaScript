@@ -91,3 +91,29 @@
 // console.log(multiplyFunction);
 
 // ------------------------------------------------------------------------------------------------------- //
+
+// reverse the number
+
+// const a = 1234;
+
+// function reverseNumberFunc(num) {
+//   // initial reverse value get here;
+//   let reverseNum = 0;
+//   // check number is big to 0 so function will be run;
+//   while (num > 0) {
+//     // get the last value from the num;
+//     let rem = num % 10;
+//     // added last value in reverse Variable
+//     reverseNum = reverseNum * 10 + rem;
+//     // remove the last number from num
+//     num = Math.floor(num / 10);
+//   }
+//   // function return reverseNum
+//   return reverseNum;
+// }
+
+// const showValue = reverseNumberFunc(a);
+
+// console.log(showValue);
+
+// ------------------------------------------------------------------------------------------------------- //
