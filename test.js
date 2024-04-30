@@ -132,3 +132,97 @@
 // console.log(showValue);
 
 // ------------------------------------------------------------------------------------------------------- //
+
+// Example : Given a sorted array of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise. This problem is similar to Two Sum. (In Two Sum, the input is not sorted).
+
+// For example, given nums = [1, 2, 4, 6, 8, 9, 14, 15] and target = 13, return true because 4 + 9 = 13.
+
+// let nums = [1, 2, 4, 6, 8, 9, 14, 15];
+
+// function checkForTarget(arr, target) {
+//   let left = 0;
+//   let right = arr.length -1;
+
+//   while (left < right) {
+//     let current = arr[left] + arr[right];
+
+//     if (current == target) {
+//       return `${arr[left]} + ${arr[right]} = ${target}`;
+//     }
+
+//     if (current > target) {
+//       right--;
+//     } else {
+//       left++;
+//     }
+//   }
+//   return false;
+// }
+
+// console.log(checkForTarget(nums,13));
+
+// ------------------------------------------------------------------------------------------------------- //
+
+// Example : Given two sorted integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
+
+// let arr1 = [1, 4, 7, 8];
+// let arr2 = [3, 5, 9];
+
+// function combine(arr1, arr2) {
+//   let i = 0;
+//   let j = 0;
+//   let ans = [];
+
+//   while (i < arr1.length && j < arr2.length) {
+//     if (arr1[i] < arr2[j]) {
+//       ans.push(arr1[i]);
+//       i++;
+//     } else {
+//       ans.push(arr2[j]);
+//       j++;
+//     }
+//   }
+
+//   while (i < arr1.length) {
+//     ans.push(arr1[i]);
+//     i++;
+//   }
+
+//   while (j < arr2.length) {
+//     ans.push(arr2[j]);
+//     j++;
+//   }
+
+//   return ans;
+// }
+
+// console.log(combine(arr1, arr2));
+
+// ------------------------------------------------------------------------------------------------------- //
+
+// Example:Is Subsequence.
+
+// Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+// A subsequence of a string is a sequence of characters that can be obtained by deleting some (or none) of the characters from the original string, while maintaining the relative order of the remaining characters. For example, "ace" is a subsequence of "abcde" while "aec" is not.
+
+// let a = "abdf";
+// let b = "abcdef";
+
+// function isSubsequentFunction(str1, str2) {
+//   let i = 0,
+//     j = 0;
+
+//   while (i < str1.length && j < str2.length) {
+//     if (str1[i] == str2[j]) {
+//       i++;
+//     }
+//     j++;
+//   }
+
+//   return i == str1.length;
+// }
+
+// console.log(isSubsequentFunction(a, b));
+
+// ------------------------------------------------------------------------------------------------------- //
